@@ -1,0 +1,27 @@
+.maincontainer{
+    margin: 90px auto;text-align: center;align-items: center;
+    width: 30%;height: 400px;border-radius: 30px;background-color: whitesmoke;
+    box-shadow: 4px 4px 6px 6px whitesmoke;box-shadow: 4px 4px 6px 6px lightgray;
+}
+.input1{
+    margin-top: 80px;
+}
+input{
+    border-radius: 50px;width: 70%;border: none;
+    box-shadow: 4px 4px 6px 6px gray;text-align: center;height: 40px;
+    border-top: none;
+}
+.loginbtn{
+    width: 40%;border-radius: 40px;font-family: impact;height: 40px;
+    background-color: white;border: none;box-shadow: 4px 4px 6px 6px gray;
+    font-size: 20px;overflow: hidden;
+}
+
+input:hover{
+  background-color: aqua;
+}
+@media screen and (max-width:700px) {
+    .maincontainer{
+        width: 80%;
+    }
+}

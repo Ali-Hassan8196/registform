@@ -1,0 +1,27 @@
+.maincontainer2{
+    margin: 90px auto;text-align: center;align-items: center;
+    width: 30%;height: 700px;border-radius: 30px;background-color: whitesmoke;
+    box-shadow: 4px 4px 6px 6px whitesmoke;box-shadow: 4px 4px 6px 6px lightgray;
+}
+.input2{
+    margin-top: 80px;
+}
+input{
+    border-radius: 50px;width: 70%;border: none;
+    box-shadow: 4px 4px 6px 6px gray;text-align: center;height: 40px;
+}
+.logoutbtn{
+    width: 40%;border-radius: 40px;font-family: impact;height: 40px;
+    background-color: white;border: none;box-shadow: 4px 4px 6px 6px gray;
+    font-size: 20px;overflow: hidden;
+}
+
+.link{
+    text-decoration: none;color: black;
+}
+
+@media screen and (max-width:700px) {
+    .maincontainer2{
+        width: 80%;
+    }
+}
